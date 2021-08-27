@@ -1,0 +1,337 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    overflow: visible;
+    z-index: 999;
+    background: #f1f1f1 url('Image/dots-unscreen.gif') no-repeat center center;
+}
+.navAnchor {
+    font-size: 18px;
+    margin: 0 5px;
+}
+.lgogBox {
+    width: 280px;
+    height: 40px;
+}
+.lgogBox img {
+    width: 100%;
+    height: 100%;
+}
+.icon-box {
+    margin-top: 20px;
+}
+.icon-box i{
+    margin-right: 5px;
+    font-size: 18px;
+}
+.hrStyle {
+    border: 2px solid rgb(44, 43, 43);
+    border-radius: 10px;
+}
+.topHeader {
+    margin-bottom: -30px;
+}
+.imgBox {
+    width: 280px;
+    height: 50px;
+}
+.imgBox img {
+    width: 100%;
+    height: 100%;
+}
+.heading {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: #363958;
+}
+.yellow {
+    color: #FABE4C;
+}
+.exteranlBtn {
+    background: #A4BC46;
+    font-family: sans-serif !important;
+    width: 170px;
+    height: 60px;
+    color: #fff;
+    font-size: 17px;
+}
+.exteranlBtn:hover {
+    color: #fff;
+}
+.headerBg {
+    background-color: #FFFBF0;
+}
+.jacket {
+    background-color: #F1F1F1;
+}
+.boxSize {
+    box-sizing: border-box;
+}
+.card-parent-box {
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+    box-shadow: 2px 2px 10px 0px grey;
+}
+.card-parent-box:hover {
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.5);
+}
+.womanHeading {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #363958;
+}
+.cardBtn {
+    width: 120px;
+    height: 40px;
+    
+}
+.cardSecatinBox {
+    margin-top: -20px;
+}
+.cardImgParentBox {
+    background-color: #F1F1F1;
+    margin: 10px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.cardImgBox {
+    width: 280px;
+    height: 350px;
+    margin: auto;
+}
+.cardImgBox img {
+    width: 100%;
+    height: 100%;
+}
+.coateName {
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+    font-size: 25px;
+    font-weight: bold;
+}
+.price h6{
+    font-size: 36px;
+    color: #FABE4C;
+    font-family: 'Bebas Neue', cursive;
+}
+.choice {
+    font-size: 28px;
+    color: #363958;
+    cursor: pointer;
+}
+.card-text {
+    font-size: 18px;
+}
+.details-icon {
+    width: 78px;
+    height: 82px;
+}
+.details-icon img {
+    width: 100%;
+    height: 100%;
+}
+.details-box  {
+   /* border: 1px solid rgb(0,0,0,0.5); */
+   padding: 10px;
+   border-radius: 15px;
+   background-color: #fff;
+}
+.details-description {
+    width: 350px;
+}
+.proDetailsTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #363958;
+}
+.details-main-box {
+    padding: 20px;
+}
+.descBox {
+    margin-top: -25px;
+}
+.formBorder {
+    /* border:1px solid rgb(44, 43, 43); */
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.5);
+}
+.submitBtn {
+    background: #363958;
+    color: #fff;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+.formText {
+    color: #363958;
+    font-size: 15px;
+    font-weight: bold;
+}
+.formSection {
+    background-color: #89a4b663;
+}
+.footerSection {
+    background-color: #363958;
+    color: #fff;
+    padding: 15px 5px;
+}
+.footerSection h5 {
+    
+    font-family: 'Bebas Neue', cursive;
+}
+.iconBox {
+    margin-top: 55px;
+}
+.iconBox i{
+    font-size: 26px;
+    margin: 5px;
+}
+.footerItem {
+    margin-top: -15px;
+}
+.companyName {
+    color: #FABE4C;
+}
+.ftrFs {
+    font-size: 10px;
+}
+.gotopbtn {
+    font-size: 40px;
+    color: #FABE4C !important;
+    position: fixed;
+    right: 8px;
+    bottom: 2px;
+    text-decoration: none;
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) { 
+    .cardImgBox {
+        width: 190px;
+    }
+    .details-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .details-description {
+        text-align: center;
+        padding-top: 20px;
+        width: 250px;
+    }
+    .details-icon img {
+        margin-left: 5px !important;
+        margin-bottom: 15px;
+    }
+    .footerParts {
+        grid-gap: 40px;
+      }
+    .footerText {
+        text-align: center;
+    }
+    
+    .topHdrPosition {
+        padding-top: 50px;
+    }
+    .navAnchor {
+        padding-left: 200px;
+        padding-top: 30px;
+        background-color: #363958;
+        border-radius: 15px;
+        margin-top: 15px;
+        padding-bottom: 20px;
+    }
+    .topHeaderLeftPart {
+        margin-top: -30px !important;
+    }
+    .footerSignUpText {
+        text-align: center;
+    }
+    .btmHdrImg{
+        margin-top: 50px;
+    }
+    .descriptionsPositionBox {
+        position: relative;
+    }
+    
+ }
+
+ @media only screen and (max-width: 600px) { 
+    .details-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: none;
+    }
+    .footerParts {
+        grid-gap: 30px;
+      }
+    .details-icon img {
+        margin-left: 3px !important;
+        margin-bottom: 15px;
+    }
+    .details-description {
+        width: 250px;
+        text-align: center;
+        padding-top: 20px;
+
+    }
+    .footerText {
+        text-align: center;
+    }
+    .topHdrPosition {
+        padding-top: 50px;
+    }
+    .navAnchor {
+        padding-left: 110px;
+        padding-top: 30px;
+        background-color: #363958;
+        border-radius: 15px;
+        margin-top: 15px;
+        padding-bottom: 20px;
+        
+    }
+    .navAnchor a {
+        color: #fff !important;
+    }
+    .topHeaderLeftPart {
+        margin-top: -30px !important;
+    }
+    .lgogBox {
+        width: 230px;
+        height: 40px;
+    }
+    .lgogBox img {
+        width: 100%;
+        height: 100%;
+    }
+    .heading{
+        font-size: 45px;
+    }
+    .footerSignUpText {
+        text-align: center;
+    }
+    .btmHdrImg{
+        margin-top: 50px;
+    }
+    .descriptionsPositionBox {
+        position: relative;
+    }
+    .bannerBox {
+        position: absolute;
+        top: 0;
+    }
+    .bannerContentBox {
+        margin-top: 260px;
+    }
+ } 
